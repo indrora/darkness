@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package ltpb;
+option go_package ="./ltpb;ltpb";
+
+message ToFCalibration {
+    required float offset_distance = 1;
+    required float offset_measurement = 2;
+    required float xtalk_distance = 3;
+    required float xtalk_measurement = 4;
+}

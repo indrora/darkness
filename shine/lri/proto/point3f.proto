@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+package ltpb;
+option go_package ="./ltpb;ltpb";
+
+message Point3F {
+    required float x = 1;
+    required float y = 2;
+    required float z = 3;
+}
